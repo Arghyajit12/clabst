@@ -1,4 +1,4 @@
-//fibonacci series
+//fibonacci series using while loop
 #include<stdio.h>
 int main(){
     int i=1,j=0,n;
