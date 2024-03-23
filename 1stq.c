@@ -1,13 +1,13 @@
-// area of rectangle
+// area of triangle
 #include<stdio.h>
 int main(){
-    int length,width,area;
-    printf("enter length of rectangle");
-    scanf("%d",&length);
-    printf("enter width of rectangle");
-    scanf("%d",&width);
-    area = length*width;
-    printf("area of recatngle is : %d",area);
+    float base,height,area;
+    printf("enter base of triangle");
+    scanf("%f", &base);
+    printf("enter height of triangle");
+    scanf("%f", &height);
+    area = (1.0/2.0)*base*height;
+    printf("area of triangle is : %f",area);
     return 0;
 
 }
